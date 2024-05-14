@@ -1,0 +1,64 @@
+@import "../sass/_colors.scss";
+
+.Footer {
+  width: 100%;
+  &__content {
+    width: 1290px;
+    height: 408px;
+    margin: 130px auto 0;
+    display: flex;
+    gap: 100px;
+  }
+  &__post {
+    width: 410px;
+    p {
+      margin-top: 25px;
+      font-family: "Quicksand";
+      margin-bottom: 30px;
+    }
+    &-email {
+      position: relative;
+      input {
+        width: 394px;
+        height: 60px;
+        font-size: 18px;
+        border-radius: 30px;
+        background-color: $main-white-color;
+        padding: 1em;
+        border: 0;
+        color: $main-grey-color;
+      }
+      button {
+        position: absolute;
+        top: 8px;
+        right: 26px;
+        width: 142px;
+        height: 44px;
+      }
+    }
+  }
+  &__lists {
+    width: 780px;
+    display: flex;
+    gap: 60px;
+
+    h3 {
+      margin-bottom: 25px;
+    }
+    li {
+      font-size: 18px;
+      color: $main-grey-color;
+      margin-bottom: 15px;
+    }
+    ul:nth-child(1) {
+      width: 212px;
+    }
+    ul:nth-child(2) {
+      width: 160px;
+    }
+  }
+  > p {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}

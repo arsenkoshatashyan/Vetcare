@@ -1,0 +1,58 @@
+@import "../sass/_colors.scss";
+
+.Cards {
+  width: 100%;
+  &__content {
+    width: 1490px;
+    height: 758px;
+    margin: 130px auto;
+    border-radius: 50px;
+    text-align: center;
+    background-color: $main-block-background;
+  }
+  &__title {
+    width: 400px;
+    height: 124px;
+    margin: 60px auto;
+    p {
+      padding-top: 100px;
+      font-size: 20px;
+      font-weight: 800;
+      color: $main-orange-color;
+    }
+  }
+  &__block {
+    display: flex;
+    gap: 40px;
+    width: 1288px;
+    margin: 0 auto;
+  }
+  &__data {
+    width: 292px;
+    height: 374px;
+    margin: 60px 0;
+    border-radius: 30px;
+    background-color: $main-white-color;
+    padding: 50px 40px;
+    color: $main-blue-color;
+    &:hover {
+      background: $main-hover-background;
+      color: $main-white-color;
+      transition: 0.2s linear;
+      h2, p {
+        color: $main-white-color;
+      }
+    }
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    p {
+      width: 212px;
+    }
+  }
+}

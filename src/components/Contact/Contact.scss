@@ -1,0 +1,27 @@
+@import "../sass/_colors.scss";
+
+.Contact {
+  width: 100%;
+  &__content {
+    width: 1490px;
+    height: 520px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    gap: 170px;
+    background-color: $main-block-background;
+    border-radius: 50px;
+  }
+  &__title {
+    margin: 70px;
+    width: 654px;
+    margin: 50px auto;
+    h2 {
+      padding: 30px 0;
+    }
+    button {
+      width: 220px;
+      margin-top: 50px;
+    }
+  }
+}

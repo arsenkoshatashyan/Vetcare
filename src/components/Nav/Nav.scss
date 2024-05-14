@@ -1,0 +1,31 @@
+@import "../sass/_colors.scss";
+
+.Nav {
+  width: 100%;
+  position: relative;
+  // border: 2px solid blue;
+  &__content {
+    width: 1920px;
+    height: 100px;
+    background-color: $main-block-background;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+
+
+    ul {
+      display: flex;
+      gap: 55px;
+      li {
+        font-size: 20px;
+        color: $main-blue-color;
+      }
+    }
+    button {
+      width: 228px;
+    }
+  }
+}

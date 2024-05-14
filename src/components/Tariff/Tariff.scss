@@ -1,0 +1,59 @@
+@import "../sass/_colors.scss";
+
+.Tariff {
+  width: 100%;
+  &__content {
+    width: 1290px;
+    height: 844px;
+    margin: 130px auto;
+  }
+  &__block {
+    display: flex;
+    gap: 20px;
+    & > :hover {
+      scale: 1.1;
+      background: $main-hover-background;
+      transition: 0.6s linear;
+      
+      h2,
+      h3,
+      h4,
+      p {
+        color: $main-white-color;
+      }
+      button {
+        scale: 1;
+        color: $main-orange-color;
+        background: $main-white-color;
+      }
+    }
+  }
+  &__packages {
+    width: 470px;
+    height: 742px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 60px;
+    background-color: $main-white-color;
+    h2 {
+      font-size: 50px;
+      margin-top: 5px;
+    }
+    p {
+      width: 186px;
+      padding: 26px;
+      margin: 0px auto;
+      line-height: 32px;
+    }
+    h4 {
+      font-size: 32px;
+      font-weight: 800;
+      color: $main-orange-color;
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+    button {
+      width: 214px;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import "../sass/_colors.scss";
+
+.Experience {
+  width: 100%;
+  &__content {
+    width: 1604px;
+    height: 712px;
+    margin: 0 auto;
+    display: flex;
+    gap: 74px;
+  }
+  &__block {
+    width: 640px;
+    height: 588px;
+    margin: 20px auto;
+    p:nth-child(1) {
+      font-size: 20px;
+      font-weight: 800;
+      color: $main-orange-color;
+      padding: 10px 0;
+    }
+    h2 {
+      margin-bottom: 30px;
+    }
+    p:nth-child(3),
+    p:nth-child(4),
+    p:nth-child(5),
+    p:nth-child(6) {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 25px;
+    }
+    button {
+      width: 268px;
+      height: 60px;
+      margin-top: 20px;
+    }
+  }
+  &__image {
+    img {
+      width: 684px;
+      height: 684px;
+    }
+  }
+}
